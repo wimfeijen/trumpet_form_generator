@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-29 21:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:21 models.py:101
+msgid "name"
+msgstr "naam"
+
+#: models.py:22
+msgid "identifier"
+msgstr "identificeerder"
+
+#: models.py:22
+msgid "Don't touch this, unless you know the purpose."
+msgstr "Dit niet aanpassen, tenzij u weet waar het toe dient."
+
+#: models.py:23
+msgid "intro text"
+msgstr "introtekst"
+
+#: models.py:23
+msgid "This text is shown above the form."
+msgstr "Deze tekst komt boven het formulier."
+
+#: models.py:24
+msgid "success text"
+msgstr "succestekst"
+
+#: models.py:24
+msgid "This text is shown when the form is successfully submitted."
+msgstr "Deze tekst wordt getoond als het formulier met succes is verstuurd."
+
+#: models.py:25
+msgid "e-mail to"
+msgstr "e-mail naar"
+
+#: models.py:25
+msgid ""
+"Send to form to these e-mailaddress. Seperate multiple e-mailaddress by "
+"comma's."
+msgstr "Verzend de ingezonden formulieren naar deze e-mailadressen. Plaats komma's tussen de e-mailadressen."
+
+#: models.py:26
+msgid "effective at"
+msgstr "effectief vanaf"
+
+#: models.py:26
+msgid ""
+"Put online at this moment. This field is also used to sort the news items."
+msgstr ""
+"Plaats online op dat moment. Dit wordt ook gebruikt om de nieuwsberichten "
+"chronologisch te sorteren."
+
+#: models.py:27
+msgid "expire at"
+msgstr "verloopt op"
+
+#: models.py:27
+msgid "Put offline at this moment, or leave empty to keep it online forever."
+msgstr ""
+"Plaats offline op dit moment, of laat het leeg om het oneindlig lang online "
+"te laten."
+
+#: models.py:28
+msgid "template"
+msgstr "sjabloon"
+
+#: models.py:29
+msgid "template name"
+msgstr "sjabloon naam"
+
+#: models.py:30
+msgid "is active"
+msgstr "is geactiveerd"
+
+#: models.py:31
+msgid "allowed groups"
+msgstr "geautoriseerde groepen"
+
+#: models.py:31
+msgid "Leave empty if it's a public form."
+msgstr "Laat leeg als het een publiek formulier is."
+
+#: models.py:36 models.py:100 models.py:151
+msgid "autoform"
+msgstr "autoform"
+
+#: models.py:37
+msgid "autoforms"
+msgstr "autoforms"
+
+#: models.py:84
+#, python-format
+msgid "A message from your online form: %s"
+msgstr "Een bericht van uw online formulier: %s"
+
+#: models.py:90
+msgid "text"
+msgstr "tekst"
+
+#: models.py:91
+msgid "integer"
+msgstr "geheel getal"
+
+#: models.py:92
+msgid "e-mail"
+msgstr "e-mail"
+
+#: models.py:93
+msgid "dropdown list"
+msgstr "uitklaplijst"
+
+#: models.py:94
+msgid "radio bottons"
+msgstr "radio knoppen"
+
+#: models.py:95
+msgid "checkbox"
+msgstr "aanvinkvak"
+
+#: models.py:96
+msgid "large textbox"
+msgstr "tekstblok"
+
+#: models.py:102
+msgid "type"
+msgstr "type"
+
+#: models.py:103
+msgid "is required"
+msgstr "is verplicht"
+
+#: models.py:104
+msgid "possible values"
+msgstr "mogelijke waarden"
+
+#: models.py:104
+msgid ""
+"This is only used for dropdown lists and radio buttons. Seperate the values "
+"by comma's."
+msgstr "Dit wordt alleen gebruikt voor uitklaplijsten en radioknoppen. De waarden scheiden met komma's."
+
+#: models.py:105
+msgid "default value"
+msgstr "standaard waarde"
+
+#: models.py:106
+msgid "help text"
+msgstr "hulp tekst"
+
+#: models.py:106
+msgid "The help text will be displayed just below the form field."
+msgstr "Deze tekst wordt onder het formulierveld geplaatst."
+
+#: models.py:109
+msgid "autoform field"
+msgstr "autoform veld"
+
+#: models.py:110
+msgid "autoform fields"
+msgstr "autoform velden"
+
+#: models.py:152
+msgid "submit timestamp"
+msgstr "verzend tijdstempel"
+
+#: models.py:153
+msgid "content"
+msgstr "inhoud"
+
+#: models.py:153
+msgid "pickled dictionary of result."
+msgstr ""
+
+#: models.py:154
+msgid "HTTP headers"
+msgstr ""
+
+#: models.py:157
+msgid "autoform result"
+msgstr ""
+
+#: models.py:158
+msgid "autoform results"
+msgstr ""
+
+#: templates/autoform/base.html:14
+msgid "Submit"
+msgstr "Verzenden"

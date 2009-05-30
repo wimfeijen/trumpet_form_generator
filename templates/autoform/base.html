@@ -1,0 +1,20 @@
+{% extends autoform.template_name %}
+{% load i18n %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ media_url }}cms/css/form.css" />
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+<div id="autoform">
+    <div class="intro">{{ autoform.intro_text|safe }}</div>
+    <form action="." method="post">
+        <table>
+        {{ form }}
+        <tr class="submit_text"><td colspan="2">{{ autoform.submit_text|safe }}</td></tr>
+        <tr><td></td><td><input type="submit" value="{% trans 'Submit' %}" class="submit" /></td></tr>
+        </table>
+    </form>
+</div>
+{% endblock %}
